@@ -25,7 +25,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import train_test_split as tts
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
-df=pd.read_csv("data.csv")
+df=pd.read_csv("/content/drive/MyDrive/deep_learning/exp_1/data.csv")
 df.head()
 df.describe()
 df.info()
